@@ -1,6 +1,6 @@
 # Arbitrum Nitro Full Node for DappNode
 
-| ***I'm no longer verifying the package, be sure to use the ones inside releases.json***
+| ***I'm no longer verifying the package (unless it is a major update), be sure to use the ones inside releases.json***
 
 This repo allows you to run a Aribtrum full node on [DappNode](https://twitter.com/dappnode). I'll support this repo until DappNode's team decide to support it officially. 
 
