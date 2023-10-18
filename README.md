@@ -14,7 +14,7 @@ If you don't want to host a full stack Ethereum Node yourself be sure to update 
 
 ## Running an Arbitrum Nitro Node
 
-If this is your first time starting this Arbitrum One Nitro Node, go to the config tab and add `--init.url=https://snapshot.arbitrum.io/mainnet/nitro.tar` to the EXTRA_OPTS field in the config tab of the package.
+If this is your first time starting this Arbitrum One Nitro Node, go to the config tab and add `--init.url="https://snapshot.arbitrum.foundation/arb1/nitro-pruned.tar"` to the EXTRA_OPTS field in the config tab of the package.
 This will download the Genesis Database for you.
 Once the initial database has been downloaded, you can remove the flag.
 
