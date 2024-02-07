@@ -24,18 +24,18 @@
       "name": "Arbitrum Nitro JSON RPC (HTTP)",
       "description": "JSON RPC endpoint for Arbitrum Nitro",
       "serviceName": "arbitrum-nitro.public.dappnode.eth",
-      "port": 8545
+      "port": 8547
     },
     {
       "name": "Arbitrum Nitro JSON RPC (WS)",
       "description": "JSON RPC WebSocket endpoint for Arbitrum Nitro",
       "serviceName": "arbitrum-nitro.public.dappnode.eth",
-      "port": 8546
+      "port": 8548
     }
   ],
   "links": {
-    "endpoint": "http://arbitrum-nitro.public.dappnode:8545",
-    "ws": "ws://arbitrum-nitro.public.dappnode:8546",
+    "endpoint": "http://arbitrum-nitro.public.dappnode:8547",
+    "ws": "ws://arbitrum-nitro.public.dappnode:8548",
     "homepage": "https://developer.offchainlabs.com/docs/Running_Nitro_Node"
   },
   "bugs": {
