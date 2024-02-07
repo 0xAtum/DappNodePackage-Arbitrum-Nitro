@@ -8,12 +8,13 @@ RUN mkdir -p /home/user/.arbitrum \
 
 USER user
 
-ENTRYPOINT nitro --l1.url=$ETH_RPC_URL \
-  --l2.chain-id=42161 \
+ENTRYPOINT nitro --parent-chain.connection.url=$ETH_RPC_URL \
+  --chain.id=42161 \
   --http.addr=0.0.0.0 \
   --http.corsdomain=* \
   --http.vhosts=* \
-  --ws.port=8548 \
+  --http.port=8545 \
+  --ws.port=8546 \
   --ws.origins=* \
   --ws.addr=0.0.0.0 \
   $EXTRA_OPTS
