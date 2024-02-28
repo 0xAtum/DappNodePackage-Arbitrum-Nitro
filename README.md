@@ -1,3 +1,6 @@
+# Important
+I will no longer maintain this. I believe Arbitrum is a widely recognized chain, and DappNode should be responsible for supporting it, similar to other major chains. That being said, I may still provide occasional updates, but I am no longer actively maintaining it. If you submit a pull request, you may need to reach out to me via Twitter as I may not see it otherwise.
+
 # Arbitrum Nitro Full Node for DappNode
 | ***I'm no longer verifying the package (unless it is a major update), be sure to use the ones inside releases.json***
 
