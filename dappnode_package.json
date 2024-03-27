@@ -9,7 +9,7 @@
     "Voss <voss@visnovalabs.io> (https://github.com/alexpeterson91)",
     "Beepidibop (https://github.com/beepidibop)"
   ],
-  "upstreamVersion": "v2.3.3",
+  "upstreamVersion": "v2.3.3-6a1c1a7",
   "upstreamRepo": "OffchainLabs/nitro",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Developer tools", "Blockchain"],
