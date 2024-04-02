@@ -1,6 +1,6 @@
 {
   "name": "arbitrum-nitro.public.dappnode.eth",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "Arbitrum Nitro Node",
   "type": "service",
   "author": "0xAtum",
@@ -9,7 +9,7 @@
     "Voss <voss@visnovalabs.io> (https://github.com/alexpeterson91)",
     "Beepidibop (https://github.com/beepidibop)"
   ],
-  "upstreamVersion": "v2.2.2-8f33fea",
+  "upstreamVersion": "v2.3.2-064fa11",
   "upstreamRepo": "OffchainLabs/nitro",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Developer tools", "Blockchain"],
