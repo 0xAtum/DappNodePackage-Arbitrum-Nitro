@@ -9,14 +9,19 @@
     "Voss <voss@visnovalabs.io> (https://github.com/alexpeterson91)",
     "Beepidibop (https://github.com/beepidibop)"
   ],
-  "upstreamVersion": "v2.3.2-064fa11",
+  "upstreamVersion": "v2.3.3-6a1c1a7",
   "upstreamRepo": "OffchainLabs/nitro",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Developer tools", "Blockchain"],
-  "architectures": ["linux/amd64"],
+  "architectures": ["linux/amd64", "linux/arm64"],
+  "chain": {
+    "driver": "ethereum",
+    "serviceName": "arbitrum-nitro.public.dappnode.eth",
+    "portNumber": 8547
+  },
   "exposable": [
     {
-      "name": "Arbitrum Nitro JSON RPC",
+      "name": "Arbitrum Nitro JSON RPC (HTTP)",
       "description": "JSON RPC endpoint for Arbitrum Nitro",
       "serviceName": "arbitrum-nitro.public.dappnode.eth",
       "port": 8547
@@ -40,5 +45,11 @@
     "type": "git",
     "url": "https://github.com/0xAtum/DappNodePackage-Arbitrum-Nitro.git"
   },
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "globalEnvs": [
+    {
+      "envs": ["EXECUTION_CLIENT_MAINNET", "CONSENSUS_CLIENT_MAINNET"],
+      "services": ["arbitrum-nitro.public.dappnode.eth"]
+    }
+  ]
 }
