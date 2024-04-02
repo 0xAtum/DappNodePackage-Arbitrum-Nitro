@@ -9,6 +9,7 @@ services:
       - "data:/home/user/.arbitrum"
     environment:
       ETH_RPC_URL: "http://geth.dappnode:8545"
+      ETH_BEACON_RPC_URL: "http://geth.dappnode:8551"
       EXTRA_OPTS: "--http.api=net,web3,eth,debug"
     image: "arbitrum-nitro.public.dappnode.eth:1.1.0"
     restart: unless-stopped
